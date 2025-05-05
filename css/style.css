@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+ul{
+	list-style: none;
+}
+
+body, html{
+	overflow-x: hidden;
+}
+
+/** navbar**/
+
+.navbar{
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	padding: 10px 20px;
+	background-color: #f8f8f8;
+}
+
+.logo{
+
+display: flex;
+align-items: center;
+}
+
+.logo-image {
+	height: 40px;
+	margin-right: 3px;
+}
+
+.nav-links{
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.nav-links li{
+	margin: 0 30px;
+}
+
+.nav-links .register-button{
+	text-decoration: none; 
+	padding: 15px 60px; 
+	background-color: #EA1A65; 
+	color: white; 
+	border-radius: 40px
+}
+
+.nav-links .login-button{
+	text-decoration: none;
+	padding: 15px 60px;
+	background-color: white;
+	color: black;
+	border: 1px solid #cdcdcd;
+	border-radius: 40px;
+
+}
+
+.menu-btn{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+/** header section **/
+
+header {
+	width: 100vw;
+	height: 70vh;
+	background-image: url("../images/pexels-pnw-prod-7328064 1.png");
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.header-content{
+	margin-left: 40px;
+	margin-bottom: 150px;
+	color: whitesmoke;
+	text-align: left;
+}
+
+.header-content h2{
+	font-size: 3vmin;
+}
+
+
+.line{
+	width: 75px;
+	height: 4px;
+	background: #fc036b;
+	margin: 10px left;
+	border-radius: 5px;
+}
+
+.header-content h1{
+	font-size: 5vmin;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.header-content p{
+	font-size: 2vmin;
+	font-weight: bold;
+}
+
+
+/**section**/
+
+.our-mission {
+	width: 100%;
+	margin: 80px 40px;
+
+}
+
+.row-1{
+	display:flex;
+	align-items: center;
+	width: 90%;
+	justify-content: space-between;
+	
+
+}
+
+.row-1 .col-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row-1 .col-1 img{
+	width: 100%;
+}
+
+.our-mission .row-1{
+	margin-top: 50px;
+
+}
+
+.row-1 .col-1 h6{
+	font-size: 3vmin;
+	color: #484872;
+	margin: 10px auto;
+
+}
+
+.row-1 .col-1 h2{
+	font-size: 3vmin;
+}
+
+
+.row-1 .col-1 h4{
+	font-size: 3vmin;
+	color: #484872;
+	margin: 10px auto;
+}
+
+.row-1 .col-1 p{
+	padding: 0 40px;
+	color: black;
+	margin: 10px auto;
+}
+
+.row-1 .col-1 a{
+	margin-top: 30px;
+	text-decoration: none; 
+	padding: 15px 60px; 
+	background-color: #EA1A65; 
+	color: white; 
+	border-radius: 40px
+
+}
+
+
+.row-2{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #F9FAFA;
+	padding: 60px 40px;
+	width: 100vw;
+	
+	
+
+}
+
+.row-2 .col-2{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 50%;
+}
+
+
+.row-2 .col-2 h6{
+	font-size: 2vmin;
+	color: #484872;
+	margin-bottom: 10px;
+
+}
+
+
+.row-2 .col-2 h2{
+	font-size: 3vmin;
+	color: black;
+	margin-bottom: 10px;
+
+}
+
+
+
+.row-2 .col-2 .row-2-p{
+	font-size: 2vmin;
+	color: black;
+	font-weight: bold;
+
+}
+
+
+.row-2 .col-2-2 p{
+	line-height: 1.5;
+	margin-left: 100px;
+	max-width: 80%;
+
+}
+
+
+
+
+.image-2{
+	width: 100%;
+	height: 70vh;
+	background-image: url("../images/pexels-pnw-prod-7328448.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.par-2-2{
+padding: 60px 40px;
+background-color: #F9FAFA;
+width: 100vw;
+}
+
+
+.par-2-2 p{
+	line-height: 1.5;
+	color: black;
+	
+}
