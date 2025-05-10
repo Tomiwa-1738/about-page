@@ -16,6 +16,12 @@ a{
 }
 
 
+a:hover{
+	color: #EA1A65;
+}
+
+
+
 .nav-links a:not(.login-button):hover {
 	color: #ea1a65;
 	background-color: whitesmoke;
