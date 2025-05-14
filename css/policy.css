@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body, html{
+	font-family: "poppins";
+	overflow-x: hidden;
+	margin: 0;
+}
+
+
+.privacy ul{
+	list-style: none;
+}
+
+
+
+/**navbar**/
+
+.navbar{
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	padding: 20px 20px;
+	width: 100%;
+	background-color: #fafafc;
+	position: fixed;
+	z-index: 2;
+}
+
+.logo{
+
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.logo-image {
+	height: 40px;
+	margin-right: 3px;
+}
+
+.logo-heading{
+	font-size: 20px;
+	margin: 0;
+}
+
+.menu-toggle {
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: none;
+}
+
+
+.dropdown-menu{
+	display: flex;
+	gap: 20px;
+}
+
+ 
+.dropdown-menu ul {
+      list-style: none;
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+.dropdown-menu a{
+	text-decoration: none; 
+	 color: black; 
+	 font-weight: bold;
+}
+
+.login-button{
+	font-weight: bold;
+}
+
+
+
+
+/** header**/
+header {
+	width: 100vw;
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #6f4480;
+
+}
+
+.return-policy{
+	width: 100vw;
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #0b56a1;
+}
+.terms-policy{
+	width: 100vw;
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1aa868;
+}
+header h1{
+	margin-top: 50px;
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 10vmin;
+
+}
+
+h3{
+	margin-top: 20px;
+	font-size: 3vmin;
+	
+
+}
+li{
+	font-size: 2vmin;
+	line-height: 2;
+	width: 100%;
+	padding: 0px 25px;
+	margin-top: 12px;
+	font-weight: lighter;
+}
+h5{
+	font-size: 2.6vmin;
+	letter-spacing: 0.5px;
+}
+.privacy{
+	padding:40px 60px;
+}
+.hello{
+	padding: 0px 60px;
+}
+.returning{
+	padding: 40px 60px;
+}
+.terms{
+	padding: 40px 60px;
+}
+
+.terms ul{
+	margin-left: 20px;
+}
+p{
+	font-size: 2.2vmin;
+	line-height: 2;
+	width: 100%;
+	font-weight: lighter;
+
+}
+
+.privacy p{
+	padding: 0px 25px;
+	dont-size: 2vmin;
+}
+
+
+
+@media only screen and (max-width:768px){
+
+.navbar{
+	padding: 10px 20px;
+	background-color: white;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+
+}	
+
+.menu-toggle {
+    display: block;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1100;
+
+}
+
+.dropdown-menu {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;  
+    z-index: 1000;
+    justify-content: center;
+
+    
+}
+
+
+.dropdown-menu.show {
+        display: flex;
+       
+}
+
+
+
+.mail-links{
+  	list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    
+}  
+
+
+
+.dropdown-menu li {
+    margin: 15px 0;
+    align-items: center;
+
+}
+
+
+}
+
+
+
+
