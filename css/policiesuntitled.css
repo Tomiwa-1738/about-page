@@ -12,11 +12,6 @@ body, html{
 }
 
 
-.privacy ul{
-	list-style: none;
-}
-
-
 
 /**navbar**/
 
@@ -72,21 +67,54 @@ body, html{
       gap: 15px;
     }
 
-.dropdown-menu a{
+
+.mail-links .mail-a{
 	text-decoration: none; 
 	 color: black; 
 	 font-weight: bold;
 }
 
-.login-button{
+.dropdown-menu .mail-a:hover{
+	color: #ea1a65;
+}
+
+.mail-links .login-button{
+	text-decoration: none;
 	font-weight: bold;
+	padding: 10px 50px;
+	background color: whitesmoke;
+	color: black;
+	border-radius: 30px;
+	border: 1px solid grey;
+}
+
+.mail-links .reg-btn{
+	text-decoration: none;
+	font-weight: bold;
+	background color: whitesmoke;
+	padding: 10px 50px;
+	color: black;
+	border-radius: 30px;
+	border: 1px solid grey;
+}
+
+.mail-links .login-button:hover{
+	background-color: #EA1A65;
+	color: white;
+	
+}
+
+.mail-links .reg-btn:hover{
+	background-color: #ea1a65;
+	color: white;
+
 }
 
 
 
+/** privacy policy**/
 
-/** header**/
-header {
+.header-d{
 	width: 100vw;
 	height: 90vh;
 	background-position: center;
@@ -95,8 +123,70 @@ header {
 	align-items: center;
 	justify-content: center;
 	background-color: #6f4480;
+}
+
+
+.header-h{
+	margin-top: 50px;
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 10vmin;
 
 }
+
+.header-w{
+	margin-top: 50px;
+	color: black;
+	font-weight: bold;
+	font-size: 10vmin;
+}
+
+.hello-h{
+	margin-top: 20px;
+	font-size: 3vmin;
+
+}
+
+.list-p{
+	font-size: 2vmin;
+	line-height: 2;
+	width: 100%;
+	padding: 0px 25px;
+	margin-top: 12px;
+	font-weight: lighter;
+
+}
+
+.priv-h{
+	font-size: 2.6vmin;
+	letter-spacing: 0.5px;
+
+}
+
+.privacy{
+	padding:40px 60px;
+
+}
+
+.hello{
+	padding: 0px 60px;
+}
+
+.hello-p{
+	font-size: 2.2vmin;
+	line-height: 2;
+	width: 100%;
+	font-weight: lighter;
+
+}
+
+.privacy-p{
+	padding: 0px 25px;
+	dont-size: 2vmin;
+}
+
+
+/** return policy**/
 
 .return-policy{
 	width: 100vw;
@@ -108,6 +198,13 @@ header {
 	justify-content: center;
 	background-color: #0b56a1;
 }
+
+.returning{
+	padding: 40px 60px;
+}
+
+/** terms & conditions**/
+
 .terms-policy{
 	width: 100vw;
 	height: 90vh;
@@ -118,66 +215,21 @@ header {
 	justify-content: center;
 	background-color: #1aa868;
 }
-header h1{
-	margin-top: 50px;
-	color: whitesmoke;
-	font-weight: bold;
-	font-size: 10vmin;
 
-}
-
-h3{
-	margin-top: 20px;
-	font-size: 3vmin;
-	
-
-}
-li{
-	font-size: 2vmin;
-	line-height: 2;
-	width: 100%;
-	padding: 0px 25px;
-	margin-top: 12px;
-	font-weight: lighter;
-}
-h5{
-	font-size: 2.6vmin;
-	letter-spacing: 0.5px;
-}
-.privacy{
-	padding:40px 60px;
-}
-.hello{
-	padding: 0px 60px;
-}
-.returning{
-	padding: 40px 60px;
-}
 .terms{
 	padding: 40px 60px;
+
 }
 
-.terms ul{
+.terms .terms-p{
 	margin-left: 20px;
 }
-p{
-	font-size: 2.2vmin;
-	line-height: 2;
-	width: 100%;
-	font-weight: lighter;
-
-}
-
-.privacy p{
-	padding: 0px 25px;
-	dont-size: 2vmin;
-}
-
-
 
 @media only screen and (max-width:768px){
 
-.navbar{
+	@media only screen and (max-width:768px){
+
+	.navbar{
 	padding: 10px 20px;
 	background-color: white;
 	align-items: center;
@@ -197,7 +249,7 @@ p{
     z-index: 1100;
 
 }
-
+  
 .dropdown-menu {
     display: none; 
     position: fixed;
@@ -220,10 +272,11 @@ p{
 
 
 
-.mail-links{
+ul{
   	list-style: none;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     
 }  
 
@@ -235,9 +288,4 @@ p{
 
 }
 
-
 }
-
-
-
-

@@ -4,27 +4,35 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About us</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/untitled.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-<!-- navbar -->
-
 <nav class="navbar">
 
-	<div class="logo">
+		<div class="logo">
 		<img class="logo-image" src="images/Untitled design-2 1.svg" width="60px" height="60px">
 	    <h1 class="logo-heading">BinkyBox</h1>
 	</div>
 
+	<button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+	
+  <div  class="dropdown-menu">
 
-	<ul class="nav-links">
-		<li><a href="#">Register</a></li>
-		<li><a class="login-button" href="#">Login</a></li>
+	<ul class="mail-links">
+		<li><a  class="mail-a" href="#">SHOP</a></li>
+		<li><a  class="mail-a" href="#">CONTACT</a></li>
+		<li><a  class="mail-a" href="#">ABOUT</a></li>
+		<li><a class="reg-btn" href="https://shop.binkybox.ng/sign-up">REGISTER</a></li>
+		<li><a class="login-button" href="https://shop.binkybox.ng">LOGIN</a></li>
 	</ul>
+  </div>
+
 
 </nav>
+
 
 <header>
 
@@ -59,6 +67,7 @@
 
 </section >
 
+
 <section class="our-story">
 	
 	<div class="row-2">
@@ -79,10 +88,7 @@
 
 	<div class="image-2"></div>
 
-</section>
-
-
-<div class="par-2-2">
+	<div class="par-2-2">
 	<p>Our mission is simple yet powerful: to ease the burden on nursing moms by bringing the market to their doorstep—seamlessly, affordably, and thoughtfully.
 
 We envisioned Binky Box as more than just a delivery service. It's a support system for mothers—a brand built to nurture the nurturers. From fresh farm produce and household essentials to baby care and mom-focused skincare, our goal is to make sure moms never have to choose between self-care, baby care, and rest. With Binky Box, convenience meets care.
@@ -93,7 +99,7 @@ Binky Box exists so moms can focus on what truly matters: their baby, their fami
 	
 </div>
 
-
+</section>
 
 <section class="feature-cards">
 
@@ -123,9 +129,9 @@ Binky Box exists so moms can focus on what truly matters: their baby, their fami
 
  	<h3>BinkyBox</h3>
 
-	<div class="footer-1">
-		<h4>Categories</h4>
-		<ul>
+	<div class="footes">
+		<h4 class="footes-h">Categories</h4>
+		<ul class = "footes-u">
 			<li><a href="#">Baby Food</a></li>
 			<li><a href="#">Hygiene</a></li>
 			<li><a href="#">Food Mart</a></li>
@@ -139,9 +145,9 @@ Binky Box exists so moms can focus on what truly matters: their baby, their fami
 		</ul>
 	</div>
 
-	<div >
-		<h4>Company</h4>
-		<ul>
+	<div class="footes">
+		<h4 class="footes-h">Company</h4>
+		<ul class = "footes-u">
 			<li><a href="#">About us</a></li>
 			<li><a href="#">Contact us</a></li>
 			<li><a href="#">FAQ</a></li>
@@ -149,9 +155,9 @@ Binky Box exists so moms can focus on what truly matters: their baby, their fami
 
 	</div>
 
-	<div>
-		<h4>Policy</h4>
-		<ul>
+	<div class="footes">
+		<h4 class="footes-h">Policy</h4>
+		<ul class = "footes-u">
 			<li><a href="#">Return policy</a></li>
 			<li><a href="#">Privacy policy</a></li>
 			<li><a href="#">Terms & Conditions</a></li>
@@ -160,18 +166,18 @@ Binky Box exists so moms can focus on what truly matters: their baby, their fami
 	</div>
 
 
-	<div>
-		<h4>Social</h4>
-		<ul>
+	<div class="footes">
+		<h4 class="footes-h">Social</h4>
+		<ul class = "footes-u">
 			<li><a href="#">Instagram</a></li>
 			<li><a href="#">Twitter</a></li>
 			<li><a href="#">Whatsapp</a></li>
 		</ul>
 	</div>
 
-	<div>
-		<h4>Get the app</h4>
-		<ul>
+	<div class="footes">
+		<h4 class="footes-h">Get the app</h4>
+		<ul class = "footes-u">
 			
 		</ul>
 	</div>
@@ -179,10 +185,18 @@ Binky Box exists so moms can focus on what truly matters: their baby, their fami
 
 
 
-<p>&copy; 2025 Binkybox</p>
+<p class = "footes-p">&copy; 2025 Binkybox</p>
 </footer>
 
 
+<script type="text/javascript">
+	const toggleButton = document.querySelector('.menu-toggle');
+	const menu = document.querySelector('.dropdown-menu');
+
+	toggleButton.addEventListener('click', () => {
+		menu.classList.toggle('show');
+	});
 </script>
 </body>
 </html>
+
