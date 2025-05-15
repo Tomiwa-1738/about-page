@@ -160,7 +160,7 @@ header {
 
 .our-mission {
 	width: 100vw;
-	padding: 60px 40px;
+	padding: 10px 40px;
 
 }
 
@@ -194,6 +194,7 @@ header {
 	color: #484872;
 	margin-bottom: 10px;
 
+
 }
 
 .col-1 h2{
@@ -207,7 +208,7 @@ header {
 	height: 4px;
 	background: #fc036b;
 	border-radius: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 	margin-top: -5px;
 }
 
@@ -227,24 +228,24 @@ header {
 
  }
 
-.col-1 button{
-	
-	
+.ctn-a:hover{
+	background-color: white;
+	color: black;
+
+}
+
+.ctn-a{
 	padding: 15px 60px; 
 	background-color: #EA1A65; 
 	color: white; 
 	border-radius: 40px;
 	border: 0.5px solid grey;
-	
-
-}
-
-.col-1 button:hover{
-	background-color: white;
-	color: black;
+	text-decoration: none;
 
 }
  
+
+
 /**section 2**/
 
 .row-2{
